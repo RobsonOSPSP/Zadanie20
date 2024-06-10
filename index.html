@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kawarnia MROS</title>
+    <meta name="author" content="Maciej Barczyk">
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header><h1>KAWIARNIA MROS</h1></header>
+    <nav>
+        <input type="button" id="contact-button" name="Oferta" value="Oferta">
+    </nav>
+    <main>
+        <img src="tort.png" alt="Tort">
+    </main>
+    <footer><strong>tel:</strong> 745 180 631   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <strong>e-mail:</strong>mors@wp.pl</footer>
+    
+    <script>
+        document.getElementById('contact-button').addEventListener('click', function() {
+        window.open('files/contakt.txt', 'newtab');
+        });
+    </script>
+</body>
+</html>
